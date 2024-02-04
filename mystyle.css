@@ -23,21 +23,16 @@ li {
 
 }
 
-/* navigation background color */
-.topnav {
-	background-color: #97bf4b;
-	overflow: hidden;
-}
 
 /* navigation bar style the links */
 .topnav{
 	float: left;
-	background-color: white;
 	font-family: 'Rubik', sans-serif;
 	text-align: center;
 	padding; 15px 15px;
 	text-decoration: none;
 	font-size: 17px;
+	color: #33186B;
 }
 
 /*change the color of links on hover*/
