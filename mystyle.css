@@ -42,7 +42,7 @@ li {
 
 /*change the color of links on hover*/
 .topnav a:hover{
-	background-color:#378063;
+	background-color:#97bf4b;
 	color: white;
 }
 
@@ -50,4 +50,19 @@ li {
 .topnav a.active{
 	background-color: ≈;
 	color: #C499F3;
+}
+
+/*link colors */
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #C499F3;
+
+}
+
+a:hover{
+	color:#97bf4b;
 }
