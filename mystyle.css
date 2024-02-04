@@ -1,4 +1,5 @@
 
+/* fonts */
 h1 {
 	color: #7360DF;
 	font-family: 'Rubik', sans-serif;
@@ -20,4 +21,33 @@ li {
 	color: #33186B;
 	font-family: 'Rubik', sans-serif;
 
+}
+
+/* navigation background color */
+.topnav {
+	background-color: #97bf4b;
+	overflow: hidden;
+}
+
+/* navigation bar style the links */
+.topnav{
+	float: left;
+	background-color: white;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	padding; 15px 15px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/*change the color of links on hover*/
+.topnav a:hover{
+	background-color:#378063;
+	color: white;
+}
+
+/*change the color of active/current link*/
+.topnav a.active{
+	background-color: ≈;
+	color: #C499F3;
 }
