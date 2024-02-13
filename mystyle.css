@@ -1,8 +1,12 @@
 
 /* fonts */
+@font-face {
+	font-family: 'Kollektif';
+	src: url('fonts/kollektif/Kollektif.ttf');
+}
 h1 {
 	color: #7360DF;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Kollektif', sans-serif;
 
 }
 
