@@ -4,9 +4,14 @@
 	font-family: 'Kollektif';
 	src: url('fonts/kollektif/Kollektif.ttf');
 }
+
+@font-face {
+	font-family: 'Bold Kollektif';
+	src: url('fonts/kollektif/Kollektif-Bold.ttf');
+}
 h1 {
 	color: #7360DF;
-	font-family: 'Kollektif', sans-serif;
+	font-family: 'Bold Kollektif', sans-serif;
 
 }
 
@@ -18,12 +23,12 @@ h2 {
 
 p {
 	color: #33186B;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Kollektif', sans-serif;
 }
 
 li {
 	color: #33186B;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Kollektif', sans-serif;
 
 }
 
