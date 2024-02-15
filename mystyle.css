@@ -9,10 +9,10 @@
 	font-family: 'Bold Kollektif';
 	src: url('fonts/kollektif/Kollektif-Bold.ttf');
 }
-h1 {
+.page-title {
 	color: #7360DF;
+	background: #fff;
 	font-family: 'Bold Kollektif', sans-serif;
-
 }
 
 h2 {
@@ -26,6 +26,7 @@ p {
 	font-family: 'Kollektif', sans-serif;
 }
 
+
 li {
 	color: #33186B;
 	font-family: 'Kollektif', sans-serif;
@@ -35,13 +36,14 @@ li {
 
 /* navigation bar style the links */
 .topnav{
-	float: left;
 	font-family: 'Rubik', sans-serif;
-	text-align: center;
 	padding; 15px 15px;
 	text-decoration: none;
 	font-size: 17px;
-	color: #33186B;
+	color: #33186;
+	margin: 30px auto;
+	padding: 0 20px;
+	text-align: right;
 }
 
 /*change the color of links on hover*/
