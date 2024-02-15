@@ -8,12 +8,20 @@
 @font-face {
 	font-family: 'Bold Kollektif';
 	src: url('fonts/kollektif/Kollektif-Bold.ttf');
+
+/*Page title */
 }
 .page-title {
 	color: #7360DF;
 	background: #fff;
 	font-family: 'Bold Kollektif', sans-serif;
+	position: absolute;
+	top: 0;
+	margin-left: 5px;
+
 }
+
+/* Fonts*/
 
 h2 {
 	color: #C499F3;
@@ -33,17 +41,17 @@ li {
 
 }
 
-
 /* navigation bar style the links */
 .topnav{
 	font-family: 'Rubik', sans-serif;
-	padding; 15px 15px;
 	text-decoration: none;
 	font-size: 17px;
 	color: #33186;
-	margin: 30px auto;
-	padding: 0 20px;
-	text-align: right;
+	position: absolute;
+	padding: 15px 20px;
+	top: 0;
+	right: 0;
+	
 }
 
 /*change the color of links on hover*/
@@ -54,7 +62,6 @@ li {
 
 /*change the color of active/current link*/
 .topnav a.active{
-	background-color: ≈;
 	color: #C499F3;
 }
 
@@ -70,4 +77,26 @@ a:visited {
 
 a:hover{
 	color:#97bf4b;
+}
+
+/* Moodboard*/
+.moodboard {
+	margin-top: 50px;
+	position: relative;
+}
+
+.background-image{
+	z-index: -1;
+	position: absolute;
+}
+
+.sylvana-image{
+	top: 180px;
+	left: 200px;
+	position: absolute;
+	z-index: 1;
+}
+
+.bio {
+	margin-top: 200px;
 }
