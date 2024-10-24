@@ -1,62 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Ruffruffar's portfolio page</title>
-	<meta charset ="UTF-8">
-	<link rel="stylesheet" href="mystyle.css">
-	<style>
-	@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
-	</style>
+    <!--Adobe Suites logos from Vecteezy.com-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruffruffarr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="icon" type="image/jpg href="./imgs/favicon.png">
 </head>
-
 <body>
-	<!--test-->
-	<div class="topnav">
-		<a class="active" href="#top">🐶</a>
-		<a href="#career highlights">Career Highlights</a>
-		<a href="#interests">Interests</a>
-		<a href="#portfolio">Portfolio</a>
-	</div>
-	<br>
-	<div id = "top">
-		<h1 class="page-title">Ruffruffarr</h1>
-	</div>
-	<div class = "moodboard">
-		<img src = "https://i.pinimg.com/564x/3f/a9/83/3fa9833f6ade656fec977cccfcd5eaa4.jpg" height="500" alt="a peaceful field with a train" class="background-image"/>
-		<img src = "./images/sylvana.png" height="300" alt="sylvana the squirrel" class="sylvana-image"/>
-		<img src = "./images/pinecone.png" height="150" alt="pinecone" class="pincone-image"/>
-		<img src = "./images/color_palette.png" height="300" alt="color palette"/>
-	</div>
-	<div class = "bio">
-		<p>Ruffruffarr is a creative director and developer with a passion for creative learning. <br>She designs technologies and experiences that celebrate and nurture meaningful, creative, and fun learning and education for children. </p>
-	</div>
-	<div id ="career highlights">
-	<h2>Career Highlights</h2>
-		<ul>
-			<li>Led the development of 100+ <a href="https://www.youtube.com/ottiya" target-"_blank">YouTube videos</a> and <a href="https://open.spotify.com/artist/2TCEtx70mI4YVZXLcccoaF" target="_blank">music</a> at Ottiya for children related to coding, creative storytelling, and world languages that has accumulated over 400K views and listens</li>
-			<li>Speaker, Unity Technologies Stage, SXSW Edu 2019</li>
-			<li>Led a ₩100M KRW start-up innovation grant at Ottiya from the Korean government in 2018</li>
-			<li>1st Place Team, 1st Annual Harvard Graduate School of Education Hackathon 2015</li>
-		</ul>
-		<p></p>
-		<p> </p>
-		<p> </p>
-	</div>	
-	<div id ="interests">
-	<h2>Interests</h2>
-		<p>Leveraging <strong>AI</strong> and <strong>LLM</strong> and creative learning content to make learning personalized, fun, and accessible for kids.</p>
-	</div>
-	<div id = "portfolio">
-	<h2>Portfolio</h2>
-	<iframe src="https://editor.p5js.org/classes.ottiya/full/9GR5JX2If" height = "315"></iframe>
+    <!--Navigation section-->
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">R</div>
+            <div class="logo-text">Ruffruffarr</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="mailto:rufina.wp@gmail.com" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                  </svg>
+                  
+                  
+                  
+            </a>
+        </nav>
+    </header>
+    <!--Hero section-->
+    <main>
+        <section class="hero container">
+            <div class="hero-purple">
+                <div>
+                    <h1><small>Hi I'm </small>Ruffruffarr</h1>
+                    <p>Creative Director, Product Manager, and Developer with a passion for creative learning. <span>She designs technologies and experiences that celebrate and nurture meaningful, creative, and fun learning and education for children.</span></p>
+                    <div class="call-to-action">
+                        <a href="https://helloparkercollective.wordpress.com/" target="_blank" class="button">
+                            Writing Portfolio
+                        </a>
+                        <a href="https://www.canva.com/design/DAGTIXY1fqU/12ISkMyfyFn7gZlcVSgW5w/view" target="_blank" class="button">
+                            Design/PM Portfolio
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ruffruffarr" target="_blank">
+                        <img src="./imgs/github.png" alt="GitHub" width="48">
+                        </a>
+                        <a href="https://www.linkedin.com/in/rufinapark/" target="_blank">
+                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-green">
+                <img src="./imgs/sylvana.png" alt="Sylvana the Squirrel" width="100%"/>
+            </div>
+        </section>
+    <!--Logos section-->
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128px"/>
+                    <img src="./imgs/javascript.png" alt="javascript" width="128px"/>
+                    <img src="./imgs/css.png" alt="CSS" width="128px"/>
+                    <img src="./imgs/vscode.png" alt="VS Code" width="128px"/>
+                    <img src="./imgs/python.png" alt="Python" width="128px"/>
+                    <img src="./imgs/figma.png" alt="Figma" width="128px"/>
+                    <img src="./imgs/photoshop.png" alt="Photoshop" width="128px"/>
+                    <img src="./imgs/indesign.png" alt="InDesign" width="128px"/>
+                    <img src="./imgs/premierepro.png" alt="PremierePro" width="128px"/>
+                    <img src="./imgs/html.png" alt="HTML" width="128px"/>
+                    <img src="./imgs/javascript.png" alt="javascript" width="128px"/>
+                    <img src="./imgs/css.png" alt="CSS" width="128px"/>
+                    <img src="./imgs/vscode.png" alt="VS Code" width="128px"/>
+                    <img src="./imgs/python.png" alt="Python" width="128px"/>
+                    <img src="./imgs/figma.png" alt="Figma" width="128px"/>
+                    <img src="./imgs/photoshop.png" alt="Photoshop" width="128px"/>
+                    <img src="./imgs/indesign.png" alt="InDesign" width="128px"/>
+                    <img src="./imgs/premierepro.png" alt="PremierePro" width="128px"/>
+                </div>
+            </div>
+        </section>
+    <!--Skills section-->
+        <section id="skills" class="skills container">
+            <!--<h2>
+                <small>About Me</small>
+                Skills and Career Highlights
+            </h2>-->
+            <div class="holder-purple">
+                <div class="left-column">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Creative Direction</li>
+                        <li>Product Management</li>
+                        <li>Team Management</li>
+                        <li>Content Editing</li>
+                        <li>Curriculum Development</li>
+                        <li>Front-End Development</li>
+                    </ul>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English (Native)</li>
+                        <li>Korean (Advanced)</li>
+                        <li>Japanese (Intermediate)</li>
+                        <li>French (Intermediate)</li>
+                    </ul>
+                    
+                </div>
+                <div class="right-column">
+                    <h3>Career Highlights</h3>
+                    <p><ul>
+                        <li>Led the development of 100+ YouTube videos and music at Ottiya for children related to coding, creative storytelling, and world languages that has accumulated over 400K views and listens</li>
+                        <li>Winner, Canada x Korea VR/AR Competition (SBA x DigiBC) 2020</li>
+                        <li>Speaker, Unity Technologies Stage, SXSW Edu 2019</li>
+                        <li>Led a ₩100M KRW start-up innovation grant at Ottiya from the Korean government in 2018</li>
+                        <li>Winner, 1st Annual Harvard Graduate School of Education Hackathon 2015</li>
+                    </ul>
+                    </p>
+                    <h3>Interests</h3>
+                    <p>Leveraging AI and LLM and creative learning content to make learning personalized, fun, and accessible for kids.</p>
+
+                </div>
+            </div>
+        </section>
+    <!--Projects section-->
+        <section id="projects" class="projects container">
+            <h2>Creative Coding Projects <small><em>work in progress!</em></small></h2><br>
+            <iframe src="https://editor.p5js.org/classes.ottiya/full/9GR5JX2If" height = "315"></iframe>
 	<iframe src="https://scratch.mit.edu/projects/695421588/embed" allowtransparency="true" height="315" frameborder="0" scrolling="no" allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/EV715C3UPCk?si=MEMFok3jT2Enwhus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
 
-	<!--javascript-->
-	<script src="./script.js"></script>
-	<!--rough notation -->
-	<script type="module" src="https://unpkg.com/rough-notation?module"></script>
-	<script type="module" src="./script.js"></script>
-	
+    </main>
 </body>
 </html>
